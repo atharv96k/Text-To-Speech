@@ -260,15 +260,19 @@ select {
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
     }
-    .hero {
+   .hero{
+        background: linear-gradient(45deg, #0e1379, #571174);
+        width: 100%;
+    }
+    .container {
         width: 100%;
         min-height:100vh;
-        background: linear-gradient(45deg, #0e1379, #571174);
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         color: #fff;
+        margin-botton:-50px;
     }
     .hero h1 {
         font-size: 26px;
@@ -320,7 +324,7 @@ select {
     .footer p {
         color: white;
         opacity: 30%;
-        margin-bottom: 50px;
-        margin-top: -54px;
+        margin-bottom: 134px;
+        margin-top: -70px;
     }
 }
