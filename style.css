@@ -18,6 +18,7 @@
     justify-content: center;
     flex-direction: column;
     color: #fff;
+margin-botton:-50px;
 }
 
 .hero h1 {
@@ -99,12 +100,12 @@ select {
     text-decoration: none;
     color: white;
 }
-.footer p {
-    color: white;
-    opacity: 30%;
-    margin-bottom: 50px;
-    margin-top: -54px;
-}
+ .footer p {
+        color: white;
+        opacity: 30%;
+        margin-bottom: 134px;
+        margin-top: -70px;
+    }
 @media screen and (max-width : 350px){
     * {
         margin: 0;
@@ -124,7 +125,8 @@ select {
         justify-content: center;
         flex-direction: column;
         color: #fff;
-    }
+margin-botton:-50px;   
+ }
     
     .hero h1 {
         font-size: 26px;
@@ -175,8 +177,8 @@ select {
     .footer p {
         color: white;
         opacity: 30%;
-        margin-bottom: 50px;
-        margin-top: -54px;
+        margin-bottom: 134px;
+        margin-top: -70px;
     }
 }
 @media screen and (max-width : 412px){
@@ -198,6 +200,7 @@ select {
         justify-content: center;
         flex-direction: column;
         color: #fff;
+margin-botton:-50px;
     }
     
     .hero h1 {
@@ -249,8 +252,8 @@ select {
     .footer p {
         color: white;
         opacity: 30%;
-        margin-bottom: 50px;
-        margin-top: -54px;
+        margin-bottom: 134px;
+        margin-top: -70px;
     }
 }
 @media screen and (max-width : 600px){
