@@ -127,14 +127,14 @@ select {
     }
     
     .hero h1 {
-        font-size: 26px;
+        font-size: 33px;
         font-weight: 500;
         margin-top: -45px;
         margin-bottom: 24px;
     }
     textarea {
         width: 323px;
-        height: 204px; 
+        height: 204px;
         background: #403d84;
         font-size: 17px;
         border: 0;
@@ -193,13 +193,13 @@ select {
     }
     .container {
         width: 100%;
-        min-height:100vh;
+        min-height:90vh;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         color: #fff;
-        margin-bottom: -15px;
+        margin-bottom: -40px;
     }
     
     .hero h1 {
@@ -240,7 +240,21 @@ select {
         align-items: center;
         cursor: pointer;
     }
-    
+    .footer{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer p a{
+        text-decoration: none;
+        color: white;
+    }
+    .footer p {
+        color: white;
+        opacity: 30%;
+        margin-bottom: 7rem;
+        margin-top: -25px;
+    }
 }
 @media screen and (max-width : 600px){
     * {
@@ -255,13 +269,13 @@ select {
     }
     .container {
         width: 100%;
-        min-height:100vh;
+        min-height:90vh;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         color: #fff;
-        margi
+        margin-bottom: -40px;
     }
     .hero h1 {
         font-size: 26px;
@@ -300,5 +314,11 @@ select {
         display: flex;
         align-items: center;
         cursor: pointer;
+    }
+    .footer p {
+        color: white;
+        opacity: 30%;
+        margin-bottom: 7rem;
+        margin-top: -25px;
     }
 }
